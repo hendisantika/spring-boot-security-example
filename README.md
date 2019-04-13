@@ -24,3 +24,31 @@ Quick start
 
 Screen shot
 -----------
+Index Page
+
+![Index Page](img/index.png "Index Page")
+
+Login Page
+
+![Login Page](img/login.png "Login Page")
+
+Menu Page
+
+![Menu Page](img/menu.png "Menu Page")
+
+List Users Page
+
+![List Users Page](img/list.png "List Users Page")
+
+Create New User Page
+
+![Create New User Page](img/create.png "Create New User Page")
+
+List Users Page
+
+![List Users Page](img/list2.png "List Users Page")
+
+User Details Page
+
+![User Details Page](img/details.png "User Details Page")
+
