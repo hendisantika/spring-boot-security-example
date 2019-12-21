@@ -36,7 +36,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public Optional<User> getUserById(long id) {
         LOGGER.debug("Getting user={}", id);
-        return Optional.ofNullable(userRepository.findOne(id));
+        return Optional.ofNullable(userRepository.findById(id).get());
     }
 
     @Override
@@ -48,7 +48,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public Collection<User> getAllUsers() {
         LOGGER.debug("Getting all users");
-        return userRepository.findAll(new Sort("email"));
+        return userRepository.findAll(Sort.by("email"));
     }
 
     @Override
